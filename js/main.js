@@ -24,10 +24,6 @@ function init(){
 	document.body.appendChild(canvasgl);
 	
 	listAnimations = [
-		{index: 0, anim: Animation01},
-		{index: 1, anim: Animation02},
-		{index: 2, anim: Animation03},
-		{index: 3, anim: Animation05},
 		{index: 4, anim: Animation06}
 	];
 	
@@ -35,7 +31,7 @@ function init(){
 	
 	if(gl && !iframe){
 		/* I got the permission from BigWIngs(shadertoy.com/user/BigWIngs) on 2019-03-14 as seen here https://www.shadertoy.com/view/MdfBRX */
-		listAnimations.push( {index: 5, anim: Animation07 } );
+		listAnimations.push( {index: 5, anim: Animation06 } );
 	}
 	
 	createUI();
